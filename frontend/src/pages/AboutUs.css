@@ -1,0 +1,232 @@
+.about-page {
+  background: #faf9f6;
+  min-height: 100vh;
+  padding: 3rem 0 5rem;
+}
+
+/* HERO */
+
+.about-hero {
+  text-align: center;
+  max-width: 900px;
+  margin: auto;
+}
+
+.about-eyebrow {
+  color: #8b0000;
+  letter-spacing: 0.35em;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.about-hero h1 {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 64px;
+  line-height: 1.05;
+  color: #111;
+  margin: 1rem 0;
+}
+
+
+/* MISSION */
+
+.mission-section {
+  max-width: 1200px;
+  margin: 5rem auto;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 1.5rem;
+}
+
+.mission-card {
+  background: white;
+  border-radius: 24px;
+  padding: 2rem;
+  transition: all .4s ease;
+}
+
+.mission-card:hover {
+  transform: translateY(-8px);
+}
+
+.mission-card h2 {
+  font-family: Georgia;
+  color: #111;
+}
+
+.mission-card p {
+  color: #555;
+  line-height: 1.8;
+}
+
+/* VALUES */
+
+.values-section {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.section-heading {
+  text-align: center;
+  font-family: Georgia;
+  margin-bottom: 2rem;
+}
+
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 1.5rem;
+}
+
+.value-card {
+  background: white;
+  border-radius: 24px;
+  padding: 2rem;
+  position: relative;
+  overflow: hidden;
+  transition: .35s;
+}
+
+.value-card:hover {
+  transform: scale(1.03);
+}
+
+.value-card span {
+  font-size: 50px;
+  color: rgba(122,31,31,.08);
+  font-weight: bold;
+}
+
+.value-card h3 {
+  color: #111;
+  font-family: Georgia;
+}
+
+.value-card p {
+  color: #555;
+}
+
+/* QUOTE */
+
+.quote-section {
+  max-width: 900px;
+  margin: 6rem auto;
+  text-align: center;
+}
+
+.quote-section blockquote {
+  font-family: Georgia;
+  font-style: italic;
+  font-size: 36px;
+  color: #111;
+}
+
+/* JOURNEY */
+
+.journey-section {
+  max-width: 900px;
+  margin: auto;
+  position: relative;
+}
+
+.journey-line {
+  position: absolute;
+  left: 15px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: #ddd;
+}
+
+.journey-item {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+  transition: .3s;
+}
+
+.journey-item:hover {
+  transform: translateX(12px);
+}
+
+.journey-dot {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #7a1f1f;
+  flex-shrink: 0;
+}
+
+.journey-item h3 {
+  margin: 0;
+  color: #111;
+}
+
+.journey-item p {
+  color: #555;
+}
+
+/* CLOSING */
+
+.closing-section {
+  text-align: center;
+  max-width: 900px;
+  margin: 5rem auto 2rem;
+}
+
+.closing-section h2 {
+  font-family: Georgia;
+  font-size: 48px;
+  color: #111;
+}
+
+.closing-section p {
+  color: #555;
+  line-height: 1.8;
+}
+
+/* MADE BY */
+
+.made-by {
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+  filter: drop-shadow(0 0 8px rgba(255, 100, 100, 0.35));
+  font-size: 14px;
+  font-weight: 800;
+  font-family: "Playfair Display", Georgia, serif;
+
+  background: linear-gradient(
+    90deg,
+    #ff0000,
+    #ff7f00,
+    #ffff00,
+    #00ff00,
+    #00ffff,
+    #8b00ff,
+    #ff1493
+  );
+
+  background-size: 400% 400%;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+
+  animation: rainbowFlow 8s linear infinite;
+}
+
+.heart {
+  font-size: 18px;
+  font-weight: 900;
+}
+
+@keyframes rainbowFlow {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  100% {
+    background-position: 100% 50%;
+  }
+}

@@ -1,0 +1,36 @@
+.footer-shell {
+  background: #FFFFFF;
+  padding: 0.9rem 1rem;  /* reduced height */
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  gap: 0.25rem; /* tighter spacing */
+}
+
+/* TAGLINE */
+.footer-tagline {
+  font-family: "Playfair Display", Georgia, serif;
+  font-style: italic;
+
+  font-size: 14px;
+  color: #8E8E8E;
+
+  margin: 0;
+}
+
+/* COPYRIGHT */
+.footer-copy {
+  font-family: Inter, Arial, sans-serif;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+
+  color: #999999;
+  margin: 0;
+}

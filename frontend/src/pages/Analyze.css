@@ -1,0 +1,64 @@
+.analyze-page {
+  min-height: calc(100vh - 160px);
+  background: #faf9f6;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 2rem;
+}
+
+.analyze-wrapper {
+  width: 100%;
+  max-width: 700px;
+}
+
+/* Hide hero left content */
+.analyze-wrapper .hero-left .eyebrow,
+.analyze-wrapper .hero-left h1,
+.analyze-wrapper .hero-left .lede {
+  display: none;
+}
+
+/* Center buttons */
+.analyze-wrapper .hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.analyze-wrapper .hero-left {
+  order: 2;
+  flex: unset;
+}
+
+.analyze-wrapper .hero-right {
+  order: 1;
+  width: 100%;
+  max-width: 700px;
+}
+
+.analyze-wrapper .hero-actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+/* Center card */
+.analyze-wrapper .hero-section {
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 0;
+}
+
+.analyze-wrapper .hero-right {
+  flex: unset;
+  width: 100%;
+  max-width: 700px;
+  margin-left: 165px;
+}
+
+.analyze-wrapper .card {
+  width: 100%;
+}
