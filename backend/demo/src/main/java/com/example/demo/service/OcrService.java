@@ -16,7 +16,7 @@ public class OcrService {
 
             Tesseract tesseract = new Tesseract();
 
-            tesseract.setDatapath("C:\\Program Files\\Tesseract-OCR\\tessdata");
+            tesseract.setDatapath("tessdata");
             tesseract.setLanguage("eng");
 
             String result = tesseract.doOCR(imageFile);
