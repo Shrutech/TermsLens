@@ -1,4 +1,4 @@
-const API_BASE = "http://localhost:8081/api";
+const API_BASE = "https://termslens-production.up.railway.app/api";
 
 export async function analyzeText(text) {
   const response = await fetch(`${API_BASE}/analyze`, {
